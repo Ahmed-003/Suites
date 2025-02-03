@@ -122,13 +122,13 @@
     background-color: #f8f9fa !important;
 }
 
-.room{
+.rooms{
      font-family: "Playfair Display", serif;
      font-size: 35px ;
-     position: relative;
+     position: relative !important;
 }
 
-.room::before{
+.rooms::before{
     content: "";
     position: absolute;
     bottom: 0;
@@ -137,7 +137,7 @@
     left: 0;
     transform: translateX(-50%);
     width: 100px;
-    bottom: -94px;
+    bottom: -11px;
     left: 50%;
 }
 
